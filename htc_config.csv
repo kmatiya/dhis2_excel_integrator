@@ -1,20 +1,13 @@
 resource,dataset,dataset_element_id,excel_column
-/dataValueSets,XttTY8YbYKB,NX9ITIOkqCw,# of DBS sample rejected
-/dataValueSets,XttTY8YbYKB,poyokFLTPMo,# of  Exposed infants received
-/dataValueSets,XttTY8YbYKB,WYUB8EK3P02,# of HIV exposed infants born (Maternity register)
-/dataValueSets,XttTY8YbYKB,nyj0DMQn5kk,# of Lab results received and entered in the VL register
-/dataValueSets,XttTY8YbYKB,d0SdXKBG0Rv,# of master cards requested
-/dataValueSets,XttTY8YbYKB,GZlIeseXO8P,# of Patients entered in TRACE update form
-/dataValueSets,XttTY8YbYKB,wO1eI3ZhtiF,# of Patients that had visited after their appointment on a non-IC3 day
-/dataValueSets,XttTY8YbYKB,gVP7uekbIS2,# of VL Plasma sample rejected
-/dataValueSets,XttTY8YbYKB,OyGjf17Iht6,# of Total VL request filled
-/dataValueSets,XttTY8YbYKB,EAwRze4dQ58,# of  Exposed infants received
-/dataValueSets,XttTY9YbYKB,kfOKbxmLWUu,# OF PATIENTS ACTIVE IN AHD PROGRAM
-/dataValueSets,XttTY10YbYKB,YO0rEaGrr8S,# OF AHD PATIENTS NEWLY ENROLLED
-/dataValueSets,XttTY11YbYKB,ngMOzQBUIIt,# OF AHD PATIENTS WITH CD4 RESULT DOCUMENTED
-/dataValueSets,XttTY12YbYKB,VWKpyD5CjYY,# OF AHD PATIENTS WITH SERUM CrAg RESULT DOCUMENTED
-/dataValueSets,XttTY13YbYKB,WpnvmkAHNdP,#OF AHD PATIENTS WITH URINE LAM RESULT DOCUMENTED
-/dataValueSets,XttTY14YbYKB,vl3RZvGFopL,# OF AHD PATIENTS DISCHARGED
-/dataValueSets,XttTY15YbYKB,i9GzdIC1l7k,# OF AHD PATIENTS DIED
-/dataValueSets,XttTY16YbYKB,mZ8NzxoqcX0,# OF AHD PATIENTS TRANSFERRED OUT
-/dataValueSets,XttTY17YbYKB,flLmuvTTpdr,# OF AHD PATIENTS DEFAULTED
+/dataValueSets,vdOoPiaSTQe,uEEQm1h2aC4,Current targets assigned
+/dataValueSets,vdOoPiaSTQe,gJwaUxyrgKx,# Clients linked to care
+/dataValueSets,vdOoPiaSTQe,GJz7hXGFAKn,#of clients refused L2C
+/dataValueSets,vdOoPiaSTQe,sav5akVvmPb,# of index registered
+/dataValueSets,vdOoPiaSTQe,hBAi913uvpv,# of contacts tested negative for HIV
+/dataValueSets,vdOoPiaSTQe,gUXBGMnudDF,# of contacts tested positive for HIV
+/dataValueSets,vdOoPiaSTQe,nUZiNZAcgdn,# of contacts to be traced
+/dataValueSets,vdOoPiaSTQe,RArfLRD4w1L,# of contacts traced and tested for HIV
+/dataValueSets,vdOoPiaSTQe,SJorqjYgiFW,# of HIV tests preformed
+/dataValueSets,vdOoPiaSTQe,FAIKmdzEn8c,# of index who allowed to give contacts
+/dataValueSets,vdOoPiaSTQe,yVuMLEU8b67,# of index who refused to give contacts
+/dataValueSets,vdOoPiaSTQe,MxHLrMnXRbW,# Tested Positive
