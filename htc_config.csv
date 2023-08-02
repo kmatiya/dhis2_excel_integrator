@@ -1,0 +1,13 @@
+resource,dataset,dataset_element_id,excel_column
+/dataValueSets,vdOoPiaSTQe,uEEQm1h2aC4,Current targets assigned
+/dataValueSets,vdOoPiaSTQe,gJwaUxyrgKx,# Clients linked to care
+/dataValueSets,vdOoPiaSTQe,GJz7hXGFAKn,#of clients refused L2C
+/dataValueSets,vdOoPiaSTQe,sav5akVvmPb,# of index registered
+/dataValueSets,vdOoPiaSTQe,hBAi913uvpv,# of contacts tested negative for HIV
+/dataValueSets,vdOoPiaSTQe,gUXBGMnudDF,# of contacts tested positive for HIV
+/dataValueSets,vdOoPiaSTQe,nUZiNZAcgdn,# of contacts to be traced
+/dataValueSets,vdOoPiaSTQe,RArfLRD4w1L,# of contacts traced and tested for HIV
+/dataValueSets,vdOoPiaSTQe,SJorqjYgiFW,# of HIV tests preformed
+/dataValueSets,vdOoPiaSTQe,FAIKmdzEn8c,# of index who allowed to give contacts
+/dataValueSets,vdOoPiaSTQe,yVuMLEU8b67,# of index who refused to give contacts
+/dataValueSets,vdOoPiaSTQe,MxHLrMnXRbW,# Tested Positive
