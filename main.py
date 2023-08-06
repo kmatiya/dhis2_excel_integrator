@@ -1,5 +1,3 @@
-import json
-
 import pandas as pd
 import requests
 from requests.auth import HTTPBasicAuth
@@ -46,7 +44,6 @@ if __name__ == '__main__':
         report_df["orgUnit"] = report_df["Facility"].apply(get_org_unit)
         print(report_df.head())
         for index, row in report_df.iterrows():
-
             facility_report = {
                 "dataSet": report_config_df["dataset"].iat[0],
                 "completeDate": str(datetime.today().date()),
@@ -56,17 +53,19 @@ if __name__ == '__main__':
             }
             for idx, each_config in report_config_df.iterrows():
                 column_name = each_config["excel_column"]
+                has_category_combination = each_config["has_category_combination"]
+                if has_category_combination == 'yes':
+                    category_option_combination = each_config["category_option_combination"]
+                    column_name = column_name + "^" + category_option_combination
+
                 if column_name in row:
                     data_element = {
                         "dataElement": each_config["dataset_element_id"],
                         "value": row[column_name]
                     }
-                    facility_report["dataValues"].append(data_element)
-                else:
-                    data_element = {
-                        "dataElement": each_config["dataset_element_id"],
-                        "value": None,
-                    }
+                    if has_category_combination == 'yes':
+                        data_element["categoryOptionCombo"] = each_config['category_option_combination_id']
+
                     facility_report["dataValues"].append(data_element)
 
             print(facility_report)
