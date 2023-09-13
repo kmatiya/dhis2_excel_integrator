@@ -1,20 +1,20 @@
-resource,dataset,dataset_element_id,excel_column
-/dataValueSets,XttTY8YbYKB,NX9ITIOkqCw,# of DBS sample rejected
-/dataValueSets,XttTY8YbYKB,poyokFLTPMo,# of  Exposed infants received
-/dataValueSets,XttTY8YbYKB,WYUB8EK3P02,# of HIV exposed infants born (Maternity register)
-/dataValueSets,XttTY8YbYKB,nyj0DMQn5kk,# of Lab results received and entered in the VL register
-/dataValueSets,XttTY8YbYKB,d0SdXKBG0Rv,# of master cards requested
-/dataValueSets,XttTY8YbYKB,GZlIeseXO8P,# of Patients entered in TRACE update form
-/dataValueSets,XttTY8YbYKB,wO1eI3ZhtiF,# of Patients that had visited after their appointment on a non-IC3 day
-/dataValueSets,XttTY8YbYKB,gVP7uekbIS2,# of VL Plasma sample rejected
-/dataValueSets,XttTY8YbYKB,OyGjf17Iht6,# of Total VL request filled
-/dataValueSets,XttTY8YbYKB,EAwRze4dQ58,# of  Exposed infants received
-/dataValueSets,XttTY9YbYKB,kfOKbxmLWUu,# OF PATIENTS ACTIVE IN AHD PROGRAM
-/dataValueSets,XttTY10YbYKB,YO0rEaGrr8S,# OF AHD PATIENTS NEWLY ENROLLED
-/dataValueSets,XttTY11YbYKB,ngMOzQBUIIt,# OF AHD PATIENTS WITH CD4 RESULT DOCUMENTED
-/dataValueSets,XttTY12YbYKB,VWKpyD5CjYY,# OF AHD PATIENTS WITH SERUM CrAg RESULT DOCUMENTED
-/dataValueSets,XttTY13YbYKB,WpnvmkAHNdP,#OF AHD PATIENTS WITH URINE LAM RESULT DOCUMENTED
-/dataValueSets,XttTY14YbYKB,vl3RZvGFopL,# OF AHD PATIENTS DISCHARGED
-/dataValueSets,XttTY15YbYKB,i9GzdIC1l7k,# OF AHD PATIENTS DIED
-/dataValueSets,XttTY16YbYKB,mZ8NzxoqcX0,# OF AHD PATIENTS TRANSFERRED OUT
-/dataValueSets,XttTY17YbYKB,flLmuvTTpdr,# OF AHD PATIENTS DEFAULTED
+resource,dataset,dataset_element_id,excel_column,category_option_combination,category_option_combination_id,has_category_combination
+/dataValueSets,XttTY8YbYKB,NX9ITIOkqCw,# of DBS sample rejected,,,
+/dataValueSets,XttTY8YbYKB,poyokFLTPMo,# of  Exposed infants received,,,
+/dataValueSets,XttTY8YbYKB,WYUB8EK3P02,# of HIV exposed infants born (Maternity register),,,
+/dataValueSets,XttTY8YbYKB,nyj0DMQn5kk,# of Lab results received and entered in the VL register,,,
+/dataValueSets,XttTY8YbYKB,d0SdXKBG0Rv,# of master cards requested,,,
+/dataValueSets,XttTY8YbYKB,GZlIeseXO8P,# of Patients entered in TRACE update form,,,
+/dataValueSets,XttTY8YbYKB,wO1eI3ZhtiF,# of Patients that had visited after their appointment on a non-IC3 day,,,
+/dataValueSets,XttTY8YbYKB,gVP7uekbIS2,# of VL Plasma sample rejected,,,
+/dataValueSets,XttTY8YbYKB,OyGjf17Iht6,# of Total VL request filled,,,
+/dataValueSets,XttTY8YbYKB,EAwRze4dQ58,# of  Exposed infants received,,,
+/dataValueSets,XttTY9YbYKB,kfOKbxmLWUu,# OF PATIENTS ACTIVE IN AHD PROGRAM,,,
+/dataValueSets,XttTY10YbYKB,YO0rEaGrr8S,# OF AHD PATIENTS NEWLY ENROLLED,,,
+/dataValueSets,XttTY11YbYKB,ngMOzQBUIIt,# OF AHD PATIENTS WITH CD4 RESULT DOCUMENTED,,,
+/dataValueSets,XttTY12YbYKB,VWKpyD5CjYY,# OF AHD PATIENTS WITH SERUM CrAg RESULT DOCUMENTED,,,
+/dataValueSets,XttTY13YbYKB,WpnvmkAHNdP,#OF AHD PATIENTS WITH URINE LAM RESULT DOCUMENTED,,,
+/dataValueSets,XttTY14YbYKB,vl3RZvGFopL,# OF AHD PATIENTS DISCHARGED,,,
+/dataValueSets,XttTY15YbYKB,i9GzdIC1l7k,# OF AHD PATIENTS DIED,,,
+/dataValueSets,XttTY16YbYKB,mZ8NzxoqcX0,# OF AHD PATIENTS TRANSFERRED OUT,,,
+/dataValueSets,XttTY17YbYKB,flLmuvTTpdr,# OF AHD PATIENTS DEFAULTED,,,
