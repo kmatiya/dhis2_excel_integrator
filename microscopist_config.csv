@@ -1,3 +1,21 @@
 resource,dataset,dataset_element_id,excel_column,category_option_combination,category_option_combination_id,has_category_combination
-/dataValueSets,K3JmywfYqtj,SHvCgspzSfi,# of samples submitted,facility,x6muJUngYKi,yes
-/dataValueSets,K3JmywfYqtj,SHvCgspzSfi,# of samples submitted,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,sOIm6oQCCMp,# MRDT Positives,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,sOIm6oQCCMp,# MRDT Positives,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,MTWRxqfoZKc,# of MRDT Samples,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,MTWRxqfoZKc,# of MRDT Samples,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,iTheeQlYFra,GeneXpert Positives,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,iTheeQlYFra,GeneXpert Positives,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,LJmihHBwM6v,GeneXpert Rif,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,LJmihHBwM6v,GeneXpert Rif,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,nHaok4jZRYE,GeneXpert samples,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,nHaok4jZRYE,GeneXpert samples,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,q4S3XeY89gf,Number of positive patients found,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,q4S3XeY89gf,Number of positive patients found,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,N2mPq4p9wYs,Number of samples rejected,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,N2mPq4p9wYs,Number of samples rejected,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,QyjOfFk8QAT,Number of samples submitted,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,QyjOfFk8QAT,Number of samples submitted,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,SHvCgspzSfi,Number of samples tested,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,SHvCgspzSfi,Number of samples tested,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,d71uBc56F6X,Target for samples to collect,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,d71uBc56F6X,Target for samples to collect,community,wr6xkHqanTT,yes
