@@ -3,37 +3,8 @@ import requests
 from requests.auth import HTTPBasicAuth
 from pihmalawi_config import config
 from datetime import datetime
+from dataCapture import get_org_unit
 
-def get_org_unit(facility):
-    facility = str(facility)
-    if facility.lower().startswith("chifunga"):
-        return "pciHYsH4glX"
-    if facility.lower().startswith("lisungwi"):
-        return "jBJ1nrUXKIu"
-    if facility.lower().startswith("matope"):
-        return "GjNQ12Y2l0F"
-    if facility.lower().startswith("midzemba"):
-        return "zq5yo5iRvsL"
-    if facility.lower().startswith("nkula"):
-        return "cfzBcWqPOoy"
-    if facility.lower().startswith("zalewa"):
-        return "NW5K84KJ4xp"
-    if facility.lower().startswith("dambe"):
-        return "OhKdUBApLZa"
-    if facility.lower().startswith("ligowe"):
-        return "gA0WGnhCnYt"
-    if facility.lower().startswith("luwani"):
-        return "y3FF95NnZzl"
-    if facility.lower().startswith("magaleta"):
-        return "NFqFeBSH2Re"
-    if facility.lower().startswith("matandani"):
-        return "JKAFWLrwdji"
-    if facility.lower().startswith("neno dh"):
-        return "Rmh4wKR794k"
-    if facility.lower().startswith("neno parish"):
-        return "I4Vox6oteWl"
-    if facility.lower().startswith("nsambe"):
-        return "HxziIaDjatq"
 
 def get_attribute_option_combo(attributeOptionCombo):
     attributeOptionCombo = str(attributeOptionCombo)

@@ -29,7 +29,7 @@ def get_org_unit(facility):
         return "NFqFeBSH2Re"
     if facility.lower().startswith("matandani"):
         return "JKAFWLrwdji"
-    if facility.lower().startswith("neno district"):
+    if facility.lower().startswith("neno district") or facility.lower().startswith("neno dh"):
         return "Rmh4wKR794k"
     if facility.lower().startswith("neno parish"):
         return "I4Vox6oteWl"
