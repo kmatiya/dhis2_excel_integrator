@@ -38,11 +38,11 @@ def get_org_unit(facility):
 
 
 if __name__ == '__main__':
+    print("\t\t\tNDP Reports Status")
     for each_endpoint in config["endpoints"]:
         report_config_df = pd.read_csv(each_endpoint["config_file"])
         report_df = pd.read_excel(each_endpoint["report_file"], header=0)
-        report_df["orgUnit"] = report_df["Facility"].apply(get_org_unit)
-        print(report_df.head())
+        report_df["orgUnit"] = report_df["FACILITY"].apply(get_org_unit)
         for index, row in report_df.iterrows():
             facility_report = {
                 "dataSet": report_config_df["dataset"].iat[0],
@@ -68,14 +68,17 @@ if __name__ == '__main__':
 
                     facility_report["dataValues"].append(data_element)
 
-            print(facility_report)
             url = each_endpoint["base"] + report_config_df["resource"].iat[0]
             username = each_endpoint["username"]
             password = each_endpoint["password"]
-            post_result = requests.post(url, json=facility_report,
+            try:
+                response = requests.post(url, json=facility_report,
                                         auth=HTTPBasicAuth(username=username, password=password))
-            if post_result.status_code == 200:
-                print(post_result.text)
-                print("Report for " + row["Facility"] + " has been added in NDP")
-            else:
-                print("Error loading " + row["Facility"] + ". " + post_result.text)
+                response.raise_for_status()
+                print()
+                if response.text.split(',')[1] != '"status":"SUCCESS"':
+                    print("REPORT FOR " + row["FACILITY"] + " NOT ADDED IN NDP")
+                else:
+                    print("Report for " + row["FACILITY"] + " has been added in NDP")
+            except Exception as e:
+                print(e)

@@ -1,3 +1,26 @@
 resource,dataset,dataset_element_id,excel_column,category_option_combination,category_option_combination_id,has_category_combination
-/dataValueSets,K3JmywfYqtj,SHvCgspzSfi,# of samples submitted,facility,x6muJUngYKi,yes
-/dataValueSets,K3JmywfYqtj,SHvCgspzSfi,# of samples submitted,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,d71uBc56F6X,Target,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,d71uBc56F6X,Target,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,QyjOfFk8QAT,# of samples submitted,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,QyjOfFk8QAT,# of samples submitted,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,KseSvFwP3hv,# of samples tested Microscopy,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,KseSvFwP3hv,# of samples tested on Microscopy,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,srn5YQC6LSE,# of samples rejected Microscopy,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,srn5YQC6LSE,# of samples rejected on Microscopy,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,RDqCVNpvwKv,# of smear positive patients found,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,RDqCVNpvwKv,# of positive patients found,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,x7cLHWYbb6n,# tested on Gene Expert,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,x7cLHWYbb6n,# tested on Gene Expert,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,Kcg2eGUmRU4,# rejected on Gene Expert,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,Kcg2eGUmRU4,# rejected on Gene Expert,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,ISXYuFPKmNT,MTB Detected,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,ISXYuFPKmNT,MTB Detected,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,jEUr1FOuCl9,Number of clients with MDR/XDR TB,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,jEUr1FOuCl9,Number of clients with MDR/XDR TB,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,MTWRxqfoZKc,Number of MRDT,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,sOIm6oQCCMp,Number of MRDT positives,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,J9cOW5wk91w,Number of clients started treatment this month,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,D2h8HI96NNg,Number of clients died this month,facility,x6muJUngYKi,yes
+/dataValueSets,K3JmywfYqtj,R34fpQS6SrY,Clients submitted Urine Lam,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,RPOIYRShP2h,Urine Lam Positive,community,wr6xkHqanTT,yes
+/dataValueSets,K3JmywfYqtj,Os0XZeRPAqJ,Total number of clients on treatment,community,wr6xkHqanTT,yes
