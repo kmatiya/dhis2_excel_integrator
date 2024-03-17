@@ -4,8 +4,8 @@ config = {
             "base": "https://neno.pih-emr.org/dhis/api",
             "username": "",
             "password": "",
-            "report_file": "IC3-Clerks.xlsx",
-            "config_file": "clerks_config.csv",
+            "report_file": "HTC_report.xlsx",
+            "config_file": "htc_config.csv",
         },
     ],
 }
