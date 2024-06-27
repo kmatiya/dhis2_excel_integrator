@@ -29,10 +29,11 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.*') }}
           restore-keys: |
             ${{ runner.os }}-pip-
+            
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pytest black pandas
+        uses: py-actions/py-dependency-install@v4
+        with:
+              path: "requirements.txt"      
       - name: Test with pytest
         run: |
           black .
